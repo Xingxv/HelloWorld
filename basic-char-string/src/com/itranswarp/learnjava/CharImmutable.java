@@ -5,6 +5,7 @@ package com.itranswarp.learnjava;
  *
  */
 public class CharImmutable {
+	
 	public static void main(String[] args) {
         String s = "hello";  //s指向"hello"
         String t = s;  //t指向s指向的"hello"

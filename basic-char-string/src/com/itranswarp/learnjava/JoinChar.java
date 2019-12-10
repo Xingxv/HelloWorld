@@ -2,6 +2,7 @@ package com.itranswarp.learnjava;
 
 /**
  * char and String
+ * @author LYW
  */
 public class JoinChar {
 
@@ -10,8 +11,10 @@ public class JoinChar {
 		int a = 72;
 		int b = 105;
 		int c = 65281;
-		String s = "" + (char)a + (char)b + (char)c;
+		String s = "" + (char)a + (char)b + (char)c; //""使char转成String
 		System.out.println(s);
+		char z = '中';
+		System.out.println(z);
 	}
 
 }
