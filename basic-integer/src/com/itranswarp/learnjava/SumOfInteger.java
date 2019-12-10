@@ -9,7 +9,7 @@ public class SumOfInteger {
 		int n = 100;
 		// TODO: sum = 1 + 2 + ... + n
 		int sum = (n+1)*n/2;
-		System.out.println(sum);
+		System.out.println("1加到100="+sum);
 	}
 
 }
