@@ -16,7 +16,7 @@ public class Main {
 		double r1 = (-b+Math.sqrt(Math.pow(b, 2)-4*a*c))/(2*a);
 		double r2 = (-b-Math.sqrt(Math.pow(b, 2)-4*a*c))/(2*a);
 		System.out.println(r1 + ", " + r2);
-		System.out.println(r1 == 1 && r2 == -4 ? "测试通过" : "测试失败");
+		System.out.println(r1 == 1 && r2 == -4 ? "通过" : "失败");
 	}
 
 }
