@@ -13,7 +13,7 @@ public class Main {
 		do {
 			sum = sum + m;
 			m++;
-		} while (m<=100);
+		} while (m<=n);
 		System.out.println(sum);
 	}
 
