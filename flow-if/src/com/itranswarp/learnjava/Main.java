@@ -26,7 +26,7 @@ public class Main {
 		double bmi = weight/Math.pow(height, 2);
 		// TODO: 打印BMI值及结果
 		System.out.printf("BMI=%.2f\n",bmi);
-		if (bmi-18.5<0.00001) {
+		if (bmi-18.5<0.00001) {   //浮点型在计算机中值不完全准确，所以不能用==，而应判断误差是否小于精度
 			System.out.println("过轻");
 		} else if (bmi-18.5>=0.00001&&bmi-25<0.00001) {
 			System.out.println("正常");
