@@ -18,14 +18,15 @@ public class Main {
 	static String buildInsertSql(String table, String[] fields) {
 		// TODO:
 		StringBuilder sb = new StringBuilder();
-		sb.append("INSERT INTO ").append(table+" (");
-		for (int i = 0; i < fields.length; i++) {
-			sb.append(fields[i]);
-			if (i<fields.length-1) {
-				sb.append(", ");
-			}
-		}
-		sb.append(") VALUES (?, ?, ?)");
+//		sb.append("INSERT INTO ").append(table+" (");
+//		for (int i = 0; i < fields.length; i++) {
+//			sb.append(fields[i]);
+//			if (i<fields.length-1) {
+//				sb.append(", ");
+//			}
+//		}
+//		sb.append(" VALUES (?, ?, ?)");
+		  sb = sb.append("INSERT INTO ").append(table).append(" (" ).append(String.join(", ",fields)).append(")").append(" VALUES (?, ?, ?)");
 		return sb.toString();
 	}
 
