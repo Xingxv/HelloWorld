@@ -1,7 +1,6 @@
 /**
  * Hello World
  * @author LYW
- *
  */
 public class HelloWorld {
 	
