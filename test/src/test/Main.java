@@ -7,7 +7,7 @@ import java.beans.PropertyDescriptor;
 import java.util.Arrays;
 
 public class Main {
-    public static void main(String[] args) throws IntrospectionException {
+    public static void main(String[] args) throws Exception {
         int[] scores = new int[] { 88, 77, 51, 66 };
         Score s = new Score(scores);
         s.printScores();
