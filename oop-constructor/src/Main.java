@@ -1,6 +1,6 @@
 
 /**
- * 类 构造方法
+ * 构造方法
  * @author DELL
  */
 public class Main {
