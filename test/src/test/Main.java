@@ -9,6 +9,8 @@ public class Main {
         s.printScores();
         scores[2] = 99;
         s.printScores();
+        Integer n3 = Integer.valueOf("100");
+        System.out.println(n3.intValue());
     }
 }
 
@@ -21,4 +23,21 @@ class Score {
     public void printScores() {
         System.out.println(Arrays.toString(scores));
     }
+}
+
+class Person{
+	private String name;
+	private int age;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
 }
