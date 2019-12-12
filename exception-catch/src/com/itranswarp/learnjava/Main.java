@@ -17,10 +17,12 @@ public class Main {
 			// TODO: handle exception
 			System.out.println("错误NumberFormatException");
 			e.printStackTrace();
-		}catch (Exception e) {
+		} catch (Exception e) {
 			// TODO: handle exception
 			System.out.println("错误Exception");
 //			e.printStackTrace();
+		} finally {
+			System.out.println("END");
 		}
 	}
 
