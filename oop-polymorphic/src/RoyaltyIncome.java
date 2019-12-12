@@ -9,6 +9,7 @@ public class RoyaltyIncome extends Income {
 		// TODO Auto-generated constructor stub
 	}
 	// TODO
+	@Override
 	public double getTax() {
 		return income * 0.2; // 税率10%
 	}
