@@ -2,8 +2,6 @@ package com.itranswarp.learnjava;
 
 import java.util.Scanner;
 
-import com.sun.org.apache.bcel.internal.generic.GOTO;
-
 /**
  * switch实现石头/剪子/布并判断胜负
  */
