@@ -1,8 +1,7 @@
 
 /**
- * Learn Java from https://www.liaoxuefeng.com/
- * 
- * @author liaoxuefeng
+ * 类 构造方法
+ * @author DELL
  */
 public class Main {
 
