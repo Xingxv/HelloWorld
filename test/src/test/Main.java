@@ -28,6 +28,8 @@ public class Main {
     }
 }
 
+
+
 class Score {
     private int[] scores;
     public Score(int[] scores) {
