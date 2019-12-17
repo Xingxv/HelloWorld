@@ -13,11 +13,11 @@ public class Main {
 		Person p = new Person();
 		// TODO: 利用反射给name和age字段赋值:
 		Class c = p.getClass();
-		Field fname;
+		Field mNameField;
 		try {
-			fname = c.getDeclaredField("name");
-			fname.setAccessible(true);
-		    fname.set(p,name);
+			mNameField = c.getDeclaredField("name");
+			mNameField.setAccessible(true);
+			mNameField.set(p,name);
 		} catch (NoSuchFieldException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -32,11 +32,11 @@ public class Main {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		Field fage;
+		Field mAgeField;
 		try {
-			fage = c.getDeclaredField("age");
-			fage.setAccessible(true);
-			fage.set(p, age);
+			mAgeField = c.getDeclaredField("age");
+			mAgeField.setAccessible(true);
+			mAgeField.set(p, age);
 		} catch (NoSuchFieldException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
