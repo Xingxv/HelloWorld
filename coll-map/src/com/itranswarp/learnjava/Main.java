@@ -31,7 +31,7 @@ class Students {
 		if (score == null) {
 			// TODO:
 			score = findInList(name);
-			cache.put(name, score);
+			this.cache.put(name, score);
 		}
 		return score == null ? -1 : score.intValue();
 	}
